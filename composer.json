@@ -1,0 +1,26 @@
+{
+  "name": "sirmerdas/ip-helper",
+  "description": "Package that helps you to work with ips.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Sirmerdas\\IpHelper\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "sirmerdas",
+      "email": "sirmerdas@gmail.com"
+    }
+  ],
+  "keywords": [
+    "ip"
+  ],
+  "require-dev": {
+    "phpunit/phpunit": ">=11.1"
+  },
+  "require": {
+    "php": "^8.0"
+  }
+}
